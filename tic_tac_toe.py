@@ -15,7 +15,7 @@ def win_check(b):
             return b[0][j]
     if b[0][0]!=' ' and b[0][0]==b[1][1]==b[2][2]:
         return b[0][0]
-    if b[0][2]!=' ' and b[0][2] == b[0][2] == b[2][0]:
+    if b[0][2]!=' ' and b[0][2] == b[1][1] == b[2][0]:
         return b[0][2]
     return None
 def itp_check(b, mark):
